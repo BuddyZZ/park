@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- time to start refresh and monitor status , suggest 10s before start 11:57:20-->
+    <target_time>11:56:30</target_time>
+    <!-- second interval to refresh page, suggest value 0.5-->
+    <fresh_interval>0.5</fresh_interval>
+    <!-- 一般车位 充电车位 -->
+    <position_kind>一般车位</position_kind>
+    <username>abc@gmail.com</username>
+    <password>123456</password>
+    <car_id>沪AFXXXXX</car_id>
+    <!-- FOR TEST ONLY debug normal 新规登记-->
+    <debug>normal</debug>
+    <URL><![CDATA[http:www.xxxx.com]]></URL>
+
+</configuration>
+
+<!-- ***********************************************************ReadMe*********************************************************** -->
+<!-- Make sure this README.xml & msedgedriver.exe & getCarPosition.exe at same folder or path-->
+<!-- Get specific version of msedgedriver.exe at https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH -->
+<!-- Suggest run this application 1 minute befor grap park at least -->
+
